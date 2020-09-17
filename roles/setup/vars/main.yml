@@ -19,6 +19,9 @@ applications:
   - zsh
   - ag
   - tfenv 
+  - jenv
+  - maven
+  - node
 
 # homebrew cask applications
 cask_applications:
@@ -30,5 +33,7 @@ cask_applications:
   - 1password
   - virtualbox
   - zoomus
-
-
+  - sublime-text
+  - intellij-idea-ce
+  - pycharm
+  - visual-studio-code
