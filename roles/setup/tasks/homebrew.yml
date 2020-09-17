@@ -1,0 +1,11 @@
+---
+# update homebrew and cask
+
+- name: ensure homebrew is updated 
+  homebrew:
+    state: latest
+    update_homebrew: yes
+
+- name: tap homebrew homebrew/cask
+  homebrew_tap:
+    tap: "homebrew/cask"

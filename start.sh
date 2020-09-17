@@ -21,11 +21,11 @@ mkdir $installdir
 #    exit 1
 #else
 #    cd $installdir 
-#    ansible-playbook -i ./hosts playbook.yml --verbose
+    ansible-playbook -i ./hosts playbook.yml --verbose
 #fi
 
 echo "Cleaning up..."
 
 rm -Rfv /tmp/$installdir
 
-echo "And, voila! We are done!"
+echo "Voila! We are done!"

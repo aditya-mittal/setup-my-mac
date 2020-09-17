@@ -1,0 +1,15 @@
+---
+# make sure homebrew is installed, update brew and install applications 
+
+- name: application installs
+  include: homebrew.yml
+
+- name: start installing homebrew applications
+  homebrew:
+    name: "{{applications}}"
+    state: latest
+
+- name: start installing homebrew cask applications
+  homebrew_cask:
+    name: "{{cask_applications}}"
+    state: installed 

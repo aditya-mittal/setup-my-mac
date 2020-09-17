@@ -1,0 +1,7 @@
+# Requirements
+
+#### Saml2AWS
+#### Zoom
+#### Python 3
+#### AWS-CLI
+#### Java

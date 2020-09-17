@@ -1,0 +1,6 @@
+---
+# setup my macbook just the way I like it
+
+- hosts: mac 
+  roles:
+    - setup
