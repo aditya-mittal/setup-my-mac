@@ -11,12 +11,14 @@ applications:
   - httpie
   - curl
   - wget
+  - python@3.8
+  - awscli
   - kubectl
   - kubernetes-helm
   - minikube
   - zsh
-  - ag 
-  - terraform
+  - ag
+  - tfenv 
 
 # homebrew cask applications
 cask_applications:
@@ -27,5 +29,6 @@ cask_applications:
   - vagrant
   - 1password
   - virtualbox
+  - zoomus
 
 
