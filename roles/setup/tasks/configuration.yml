@@ -17,6 +17,9 @@
     dest: "{{general.local_home}}/.oh-my-zsh/themes/dracula.zsh-theme"
     state: link
 
+- name: make zsh default shell
+  shell: chsh -s $(which zsh)
+
 - name: initialise jenv
   shell: jenv init -
 
