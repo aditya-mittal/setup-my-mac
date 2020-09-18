@@ -23,5 +23,4 @@
 - name: add java versions to jenv
   shell: jenv add "{{ item }}"
   loop:
-   - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
    - /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home

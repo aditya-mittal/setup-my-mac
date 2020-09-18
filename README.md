@@ -12,7 +12,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/aditya-mittal/set
 ### Cleanup/Uninstall software(s)
 
 ```bash
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/aditya-mittal/setup-my-mac/master/start.sh uninstall)"
+$ start.sh uninstall
 ```
 
 All packages are installed with [Homebrew](https://brew.sh/). 

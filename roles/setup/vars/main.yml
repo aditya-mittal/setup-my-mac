@@ -36,7 +36,6 @@ cask_applications:
   - docker
   - vagrant
   - virtualbox
-  - adoptopenjdk/openjdk/adoptopenjdk8
   - adoptopenjdk11
   - intellij-idea-ce
   - pycharm

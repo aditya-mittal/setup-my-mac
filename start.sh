@@ -11,6 +11,7 @@ function uninstall() {
         brew remove --force $(brew list)
         brew remove --force $(brew list --cask)
         yes  | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
+        echo "Cleaned up all the installed software(s) and tool(s)"
         exit 0
     else
         echo "Keeping everything intact"
