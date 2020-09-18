@@ -41,15 +41,15 @@ ln -sf ~/Library/Python/2.7/bin/ansible* /usr/local/bin/
 installdir="/tmp/setup-my-mac-$RANDOM"
 mkdir $installdir
 
-#git clone https://github.com/aditya-mittal/setup-my-mac.git $installdir 
-#if [ ! -d $installdir ]; then
-#    echo "Failed to find setup-my-mac."
-#    echo "git clone failed"
-#    exit 1
-#else
-#    cd $installdir 
+git clone https://github.com/aditya-mittal/setup-my-mac.git $installdir 
+if [ ! -d $installdir ]; then
+    echo "Failed to find setup-my-mac."
+    echo "git clone failed"
+    exit 1
+else
+    cd $installdir 
     ansible-playbook -i ./hosts playbook.yml --verbose
-#fi
+fi
 
 echo "Cleaning up..."
 
