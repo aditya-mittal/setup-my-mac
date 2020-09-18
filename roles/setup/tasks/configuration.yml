@@ -16,3 +16,12 @@
     src: "{{general.local_home}}/.oh-my-zsh_dracula_theme/dracula.zsh-theme"
     dest: "{{general.local_home}}/.oh-my-zsh/themes/dracula.zsh-theme"
     state: link
+
+- name: initialise jenv
+  shell: jenv init -
+
+- name: add java versions to jenv
+  shell: jenv add "{{ item }}"
+  loop:
+   - /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+   - /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
