@@ -1,0 +1,7 @@
+---
+# getting my dotfile configuration
+
+- name: zsh dot file
+  copy:
+    src: ../../../dotfiles/dot.zshrc 
+    dest: "{{general.local_home}}/.zshrc"

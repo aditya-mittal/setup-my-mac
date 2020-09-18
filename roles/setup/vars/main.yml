@@ -6,6 +6,8 @@ general:
 # homebrew applications
 applications:
   - autojump
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
   - git
   - tree
   - httpie
