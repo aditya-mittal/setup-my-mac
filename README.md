@@ -13,13 +13,13 @@ It does the following:
 ### Setup/Install software(s)
 
 ```bash
-$ /bin/bash -c "$(curl -fsSL https://$GITHUB_TOKEN@raw.githubusercontent.com/elsevier-research/ppe-setup-my-mac/master/install.sh)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/aditya-mittal/setup-my-mac/master/install.sh)"
 ```
 
 ### Cleanup/Uninstall software(s)
 
 ```bash
-$ /bin/bash -c "$(curl -fsSL https://$GITHUB_TOKEN@raw.githubusercontent.com/elsevier-research/ppe-setup-my-mac/master/uninstall.sh)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/aditya-mittal/setup-my-mac/master/uninstall.sh)"
 ```
 
 ## License
