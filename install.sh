@@ -1,28 +1,6 @@
 #!/bin/bash
 set -e
 
-function uninstall() {
-
-    echo "WARNING : This will remove homebrew and all applications installed through it"
-    echo -n "Are you sure you want to do that? [y/n] : "
-    read confirmation
-
-    if [ $confirmation == "y" ]; then
-        brew remove --force $(brew list)
-        brew remove --force $(brew list --cask)
-        yes  | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
-        echo "Cleaned up all the installed software(s) and tool(s)"
-        exit 0
-    else
-        echo "Keeping everything intact"
-        exit 0
-    fi
-}
-
-if [ $1 == "uninstall" ]; then
-    uninstall
-fi
-
 echo "======================================"
 echo "Setting up your mac using setup-my-mac"
 echo "======================================"
@@ -42,7 +20,7 @@ ln -sf ~/Library/Python/2.7/bin/ansible* /usr/local/bin/
 installdir="/tmp/setup-my-mac-$RANDOM"
 mkdir $installdir
 
-git clone https://github.com/aditya-mittal/setup-my-mac.git $installdir 
+git clone git@github.com:elsevier-research/ppe-setup-my-mac.git $installdir 
 if [ ! -d $installdir ]; then
     echo "Failed to find setup-my-mac."
     echo "git clone failed"
