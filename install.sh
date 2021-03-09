@@ -10,7 +10,7 @@ echo "======================================"
 # install git
 brew install git
 # install pip
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
 python get-pip.py --user
 ln -sf ~/Library/Python/2.7/bin/pip /usr/local/bin/pip
 # install ansible
