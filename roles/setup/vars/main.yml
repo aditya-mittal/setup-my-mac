@@ -32,7 +32,7 @@ cask_applications:
   - iterm2
   - sublime-text
   - 1password
-  - zoomus
+  - zoom
   - docker
   - vagrant
   - virtualbox
