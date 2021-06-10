@@ -20,10 +20,15 @@ applications:
   - kubectl
   - kubernetes-helm
   - minikube
-  - tfenv 
+  - tfenv
+  - packer
   - jenv
   - maven
   - node
+  - telnet
+  - watch
+  - jq
+  - yq
 
 # homebrew cask applications
 cask_applications:
