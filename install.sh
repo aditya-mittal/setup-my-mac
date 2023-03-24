@@ -12,7 +12,7 @@ brew install git
 # install pip
 curl https://bootstrap.pypa.io/pip/get-pip.py -o get-pip.py
 python3 get-pip.py --user
-ln -sf ~/Library/Python/3.9/bin/pip /usr/local/bin/pip
+ln -sf ~/Library/Python/3.9/bin/pip /usr/local/bin/
 # install ansible
 pip install --user ansible
 ln -sf ~/Library/Python/3.9/bin/ansible* /usr/local/bin/
