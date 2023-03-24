@@ -15,7 +15,7 @@ python3 get-pip.py --user
 ln -sf ~/Library/Python/3.9/bin/pip /usr/local/bin/
 # install ansible
 pip install --user ansible
-ln -sf ~/Library/Python/3.9/bin/ansible* /usr/local/bin/
+ln -sf ~/Library/Python/3.9/bin/ansible* /usr/local/bin/pip
 
 installdir="/tmp/setup-my-mac-$RANDOM"
 mkdir $installdir
