@@ -18,7 +18,7 @@ applications:
   - python@3.8
   - awscli
   - kubectl
-  - kubernetes-helm
+  - helm
   - minikube
   - tfenv
   - packer
