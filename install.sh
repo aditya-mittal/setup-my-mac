@@ -7,6 +7,8 @@ echo "======================================"
 
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+# adding brew to path
+eval "$(/opt/homebrew/bin/brew shellenv)"
 # install git
 brew install git
 brew install python@3.10
