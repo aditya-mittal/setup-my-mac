@@ -13,3 +13,4 @@
   homebrew_cask:
     name: "{{cask_applications}}"
     state: present 
+  ignore_errors: yes
