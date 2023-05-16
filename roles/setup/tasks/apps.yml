@@ -6,10 +6,14 @@
 
 - name: start installing homebrew applications
   homebrew:
-    name: "{{applications}}"
-    state: latest
-
+    name: "{{ item }}"
+    state: latest 
+  with_items: "{{ applications }}"
+  ignore_errors: yes
+  
 - name: start installing homebrew cask applications
   homebrew_cask:
-    name: "{{cask_applications}}"
+    name: "{{ item }}"
     state: present 
+  with_items: "{{ cask_applications }}"
+  ignore_errors: yes
