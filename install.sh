@@ -23,7 +23,7 @@ sudo ln -sf ~/Library/Python/3.10/bin/ansible* /usr/local/bin/
 installdir="/tmp/setup-my-mac-$RANDOM"
 mkdir $installdir
 
-git clone https://github.com/pratikbhawsar26/setup-my-mac.git $installdir 
+git clone https://github.com/aditya-mittal/setup-my-mac.git $installdir 
 if [ ! -d $installdir ]; then
     echo "Failed to find setup-my-mac."
     echo "git clone failed"
