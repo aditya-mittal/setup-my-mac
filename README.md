@@ -8,7 +8,6 @@ It does the following:
 - All packages are installed with [Homebrew](https://brew.sh/)
 - Installs all needed installables. [Here](./roles/setup/vars/main.yml) is the list.
 - Install [tfenv](https://github.com/tfutils/tfenv#usage) for managing different terraform versions
-- Install [jenv](https://www.jenv.be/) for managing different java versions
 - Sets up zsh as developer friendly shell with command completions, syntax highlighting and auto-suggestions
 
 ### Pre-requisites
