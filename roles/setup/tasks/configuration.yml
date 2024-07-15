@@ -22,3 +22,6 @@
 
 - name: make zsh default shell
   shell: chsh -s $(which zsh)
+
+- name: add brew to path
+  shell: eval "$(/opt/homebrew/bin/brew shellenv)"  
