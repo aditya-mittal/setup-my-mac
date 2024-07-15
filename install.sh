@@ -11,14 +11,18 @@ echo "======================================"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 # install git
 brew install --quiet git
+echo "Git installed..."
 brew install --quiet python@3.10
+echo "Python installed..."
 # install pip
 curl https://bootstrap.pypa.io/pip/get-pip.py -o get-pip.py
 python3 get-pip.py --user
+echo "Pip installed..."
 sudo mkdir -p /usr/local/bin
 sudo ln -sf /opt/homebrew/Cellar/python@3.10/3.10.*/bin/pip3.10 /usr/local/bin/
 # install ansible
 pip3.10 install --user ansible
+echo "Ansible installed..."
 sudo ln -sf ~/Library/Python/3.10/bin/ansible* /usr/local/bin/
 
 installdir="/tmp/setup-my-mac-$RANDOM"
