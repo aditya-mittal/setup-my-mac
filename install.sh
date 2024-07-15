@@ -10,8 +10,8 @@ echo "======================================"
 # adding brew to path
 eval "$(/opt/homebrew/bin/brew shellenv)"
 # install git
-brew install git
-brew install python@3.10
+brew install --quiet git
+brew install --quiet python@3.10
 # install pip
 curl https://bootstrap.pypa.io/pip/get-pip.py -o get-pip.py
 python3 get-pip.py --user
