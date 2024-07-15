@@ -19,11 +19,3 @@
 
 - name: make zsh default shell
   shell: chsh -s $(which zsh)
-
-- name: initialise jenv
-  shell: jenv init -
-
-- name: add java versions to jenv
-  shell: jenv add "{{ item }}"
-  loop:
-   - /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home

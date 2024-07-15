@@ -5,11 +5,3 @@
   homebrew:
     state: latest
     update_homebrew: yes
-
-- name: tap homebrew homebrew/cask
-  homebrew_tap:
-    tap: "homebrew/cask"
-
-- name: tap adoptopenjdk
-  homebrew_tap:
-    tap: "adoptopenjdk/openjdk"
