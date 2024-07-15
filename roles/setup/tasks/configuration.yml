@@ -17,5 +17,8 @@
     dest: "{{general.local_home}}/.oh-my-zsh/themes/dracula.zsh-theme"
     state: link
 
+- name: add zsh as valid shell
+  shell: command -v zsh | sudo tee -a /etc/shells    
+
 - name: make zsh default shell
   shell: chsh -s $(which zsh)
