@@ -38,4 +38,5 @@ cask_applications:
   - docker
   - intellij-idea-ce
   - pycharm
+  - postman
   - visual-studio-code
