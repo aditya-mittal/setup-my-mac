@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -eux
 
 echo "======================================"
 echo "Setting up your mac using setup-my-mac"
