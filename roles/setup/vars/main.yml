@@ -9,12 +9,12 @@ applications:
   - zsh
   - zsh-autosuggestions
   - zsh-syntax-highlighting
-  - ag
   - git
   - tree
   - httpie
   - curl
   - wget
+  - openjdk@21
   - python@3.8
   - awscli
   - kubectl
