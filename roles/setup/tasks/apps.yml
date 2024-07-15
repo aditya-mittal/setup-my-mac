@@ -2,7 +2,7 @@
 # make sure homebrew is installed, update brew and install applications 
 
 - name: application installs
-  include: homebrew.yml
+  include_tasks: homebrew.yml
 
 - name: start installing homebrew applications
   homebrew:
