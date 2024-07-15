@@ -24,4 +24,4 @@
   shell: chsh -s $(which zsh)
 
 - name: add brew to path
-  shell: eval "$(/opt/homebrew/bin/brew shellenv)"  
+  shell: export PATH="/opt/homebrew/bin:$PATH" >> ~/.zshrc  
