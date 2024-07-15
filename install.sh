@@ -15,7 +15,7 @@ echo "Git installed..."
 brew install --quiet python@3.10
 echo "Python installed..."
 # install pip
-python3 -m ensurepip --upgrade
+pip3.10 --version || python3 -m ensurepip --upgrade
 echo "Pip installed..."
 sudo mkdir -p /usr/local/bin
 sudo ln -sf /opt/homebrew/Cellar/python@3.10/3.10.*/bin/pip3.10 /usr/local/bin/
