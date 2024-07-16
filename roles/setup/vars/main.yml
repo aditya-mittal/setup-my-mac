@@ -41,5 +41,4 @@ cask_applications:
   - intellij-idea-ce
   - pycharm
   - postman
-  - rancher
   - visual-studio-code
