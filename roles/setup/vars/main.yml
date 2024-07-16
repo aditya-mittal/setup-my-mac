@@ -27,7 +27,7 @@ applications:
   - jq
   - yq
   - saml2aws
-  - snyk
+  - snyk-cli
 
 # homebrew cask applications
 cask_applications:
