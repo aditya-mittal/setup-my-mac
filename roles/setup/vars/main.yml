@@ -26,6 +26,8 @@ applications:
   - watch
   - jq
   - yq
+  - saml2aws
+  - snyk
 
 # homebrew cask applications
 cask_applications:
@@ -39,4 +41,5 @@ cask_applications:
   - intellij-idea-ce
   - pycharm
   - postman
+  - rancher
   - visual-studio-code
