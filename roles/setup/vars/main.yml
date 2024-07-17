@@ -38,7 +38,7 @@ cask_applications:
   - 1password
   - zoom
   - docker
-  - intellij-idea-ce
+  - intellij-idea
   - pycharm
   - postman
   - visual-studio-code
