@@ -14,7 +14,7 @@ applications:
   - httpie
   - curl
   - wget
-  - openjdk@21
+  - temurin@21
   - python@3.8
   - awscli
   - kubectl
