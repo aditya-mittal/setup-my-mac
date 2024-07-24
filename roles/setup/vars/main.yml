@@ -42,3 +42,4 @@ cask_applications:
   - pycharm
   - postman
   - visual-studio-code
+  - miro
